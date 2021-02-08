@@ -38,7 +38,8 @@ Public Class Form1
                             Dim f2 As New Form2
                             f2.Show()
                         ElseIf privilege(username.IndexOf(x)) = "Admin" Then
-                            MessageBox.Show("Welcome Admin")
+                            Dim f3 As New Form3
+                            f3.Show()
                         End If
 
                     Else

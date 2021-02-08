@@ -66,7 +66,11 @@ Public Class Form2
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ''SendStream()
+        SendStream()
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim msg = TextBox1.Text & "," & TextBox2.Text & "," & TextBox3.Text
+        SendToServer(msg)
+    End Sub
 End Class

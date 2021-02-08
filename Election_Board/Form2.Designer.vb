@@ -65,6 +65,7 @@ Partial Class Form2
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -132,6 +133,7 @@ Partial Class Form2
         '
         'Panel15
         '
+        Me.Panel15.Controls.Add(Me.Button1)
         Me.Panel15.Controls.Add(Me.Panel16)
         Me.Panel15.Controls.Add(Me.Panel17)
         Me.Panel15.Controls.Add(Me.Panel18)
@@ -518,6 +520,16 @@ Partial Class Form2
         Me.TabPage1.Text = "TabPage1"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Button1.Location = New System.Drawing.Point(30, 253)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(179, 23)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Submit"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -606,4 +618,5 @@ Partial Class Form2
     Friend WithEvents TextBox9 As TextBox
     Friend WithEvents Panel21 As Panel
     Friend WithEvents Label9 As Label
+    Friend WithEvents Button1 As Button
 End Class

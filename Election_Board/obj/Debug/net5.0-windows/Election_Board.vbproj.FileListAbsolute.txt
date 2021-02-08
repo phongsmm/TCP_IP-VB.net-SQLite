@@ -33,3 +33,4 @@ D:\Lab\Election_Board-Project\Election_Board\Election_Board\bin\Debug\net5.0-win
 D:\Lab\Election_Board-Project\Election_Board\Election_Board\bin\Debug\net5.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
 D:\Lab\Election_Board-Project\Election_Board\Election_Board\bin\Debug\net5.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
 D:\Lab\Election_Board-Project\Election_Board\Election_Board\obj\Debug\net5.0-windows\Election_Board.Form2.resources
+D:\Lab\Election_Board-Project\Election_Board\Election_Board\obj\Debug\net5.0-windows\Election_Board.Form3.resources
